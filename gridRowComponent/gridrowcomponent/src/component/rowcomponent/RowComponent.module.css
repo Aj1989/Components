@@ -1,0 +1,70 @@
+.gridRowComponent {
+  display: flex;
+  border: 1px solid black;
+  height: 80px;
+  margin: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+.dateComponent {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+  background-image: linear-gradient(rgb(30, 30, 30), rgb(83, 83, 82));
+  color: white;
+}
+
+.candidateName {
+  flex: 3;
+  background-image: linear-gradient(rgb(30, 30, 30), rgb(83, 83, 82));
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.candidatePercentage {
+  flex: 1;
+  background-image: linear-gradient(rgb(30, 30, 30), rgb(83, 83, 82));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yearComponent {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.monthComponent {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dayComponent {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
